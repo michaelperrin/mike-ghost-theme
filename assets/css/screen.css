@@ -1,3 +1,60 @@
+.social-links {
+    text-align: center;
+}
+
+.social-links ul {
+    list-style-type: none;
+}
+
+.social-links ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links ul li a {
+    background-color: #c9c9c9;
+    display: inline-block;
+    color: white;
+    border-radius: 50px;
+    padding: 4px;
+    width: 24px;
+    height: 24px;
+
+    -webkit-transition: background-color .3s linear;
+    -moz-transition: background-color .3s linear;
+    -ms-transition: background-color .3s linear;
+    -o-transition: background-color .3s linear;
+    transition: background-color .3s linear;
+}
+
+.social-links ul li.blog a:hover {
+    background-color: #1e8cbe;
+}
+
+.social-links ul li.lastfm a:hover {
+    background-color: #d51007;
+}
+
+.social-links ul li.linkedin a:hover {
+    background-color: #4875B4;
+}
+
+.social-links ul li.github a:hover {
+    background-color: black;
+}
+
+.social-links ul li.flickr a:hover {
+    background-color: #fe0883;
+}
+
+.social-links ul li.facebook a:hover {
+    background-color: #3B5998;
+}
+
+.social-links ul li.twitter a:hover {
+    background-color: #33CCFF;
+}
+
 /* ==========================================================================
    Table of Contents
    ========================================================================== */
