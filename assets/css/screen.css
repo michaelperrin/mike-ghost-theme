@@ -4,6 +4,8 @@
 
 .social-links ul {
     list-style-type: none;
+    text-align: center;
+    font-size: 20px;
 }
 
 .social-links ul li {
