@@ -17,10 +17,10 @@
     background-color: #c9c9c9;
     display: inline-block;
     color: white;
-    border-radius: 50px;
-    padding: 4px;
-    width: 24px;
-    height: 24px;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
 
     -webkit-transition: background-color .3s linear;
     -moz-transition: background-color .3s linear;
@@ -1050,11 +1050,13 @@ body.nav-opened .nav {
 .post {
     position: relative;
     width: 80%;
-    max-width: 710px;
+    max-width: 1170px;
     margin: 4rem auto;
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
     word-wrap: break-word;
+    font-size: 1.7rem;
+    line-height: 1.9em;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -1074,8 +1076,22 @@ body.nav-opened .nav {
     box-shadow: #FFF 0 0 0 5px;
 }
 
+.post a {
+    color: #D14A15;
+}
+
+.post p {
+    margin-bottom: 1em;
+}
+
+.post h2 {
+    font-weight: bold;
+    margin: 2em 0 1.6em 0;
+}
+
 body:not(.post-template) .post-title {
-    font-size: 3.6rem;
+    font-size: 2.4rem;
+    margin-bottom: 1em;
 }
 
 .post-title a {
