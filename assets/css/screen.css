@@ -37,6 +37,10 @@
     background-color: #000000;
 }
 
+.social-links ul li.stack-overflow a:hover {
+    background-color: #f48024;
+}
+
 .social-links ul li.linkedin a:hover {
     background-color: #4875B4;
 }
